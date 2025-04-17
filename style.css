@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display";
+}
+
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+body{   
+    min-height: 100vh;
+    background: var(--Paleblue); 
+    background-image: url('images/pattern-background-desktop.svg') ;
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 430px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.illustration-hero{
+    border-radius: 20px 20px 0px 0px;
+    width: 430px;
+}
+.element2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -100px;
+}
+.order{
+    font-size: 23px;
+    font-weight: 900;
+    color: var(--Darkblue);
+}
+.paragraph{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Desaturatedblue);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+    line-height: 1.6;
+}
+.element3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Verypaleblue);
+    height: 85px;
+    width: 320px;
+    border-radius: 7px;
+    margin-top: -110px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+.icon-music{
+    width: 40px;
+    margin-left: -15px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-left:-30px ;
+}
+.Annual{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--Darkblue);
+}
+.dollars{
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--Desaturatedblue);
+
+}
+.change{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.element4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background-color: rgb(86, 9, 240);
+    color: white;
+    border: none;
+    margin-top: -150px;
+    height: 40px;
+    width: 330px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px rgb(234, 232, 232);
+}
+.Cancel{
+    font-size: 13;
+    font-weight: 700;
+    text-decoration: none;
+    color:var(--Desaturatedblue);
+    margin-top: -50px;
+}
